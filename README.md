@@ -1,2 +1,3 @@
 # Interactive-table
-React + Bootstraps
+React + Bootstrap
+ 
