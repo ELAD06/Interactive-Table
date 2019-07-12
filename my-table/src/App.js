@@ -42,8 +42,8 @@ class App extends React.Component {
               <td>{item.lastName}</td>
               <td>{item.username}</td>
               <td>
-                <Button color="primary" onClick={this.edit.bind(this,item)}>Edit</Button>{' '}
-                <Button color="secondary" onClick={this.delete.bind(this,item.id)} >Delet</Button>{' '}
+                <Button outline color="primary" onClick={this.edit.bind(this,item)}>Edit</Button>{' '}
+                <Button outline color="danger" onClick={this.delete.bind(this,item.id)} >Delet</Button>{' '}
               </td>
             </tr>
           })}
